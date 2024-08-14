@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG de Mesa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4a4a4a; /* Fundo em cinza mais claro */
+            margin: 0;
+            padding: 0;
+            color: #fff; /* Texto em branco */
+        }
+
+        header {
+            background-color: #fff; /* Fundo branco no letreiro principal */
+            color: #000; /* Texto em preto para o título */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #666;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff; /* Texto em branco */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ccc;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #000; /* Título principal em preto */
+        }
+
+        h2 {
+            color: #fff; /* Subtítulos em branco */
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background-color: #666; /* Fundo cinza mais claro para cards */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 10px 0;
+            color: #fff; /* Texto branco */
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #fff; /* Títulos dos cards em branco */
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        footer {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto em branco */
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>RPG DE MESA</h1>
+        <p>Descubra o mundo dos jogos de interpretação de papéis</p>
+    </header>
+
+    <nav>
+        <a href="#introducao">Introdução</a>
+        <a href="#classes">Classes de Personagens</a>
+        <a href="#armas">Armas e Ataques Especiais</a>
+        <a href="#famosos">RPGs Famosos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <!-- Introdução -->
+        <section id="introducao" class="section">
+            <h2>O que é RPG de Mesa?</h2>
+            <div class="card">
+                <p>RPG de mesa, ou Role-Playing Game, é um jogo onde os participantes assumem papéis de personagens em um mundo fictício. Sob a orientação de um mestre de jogo, os jogadores criam narrativas colaborativas, enfrentam desafios, e exploram vastos universos imaginários. É um jogo de criatividade, estratégia e, acima de tudo, diversão.</p>
+            </div>
+        </section>
+
+        <!-- Classes de Personagens -->
+        <section id="classes" class="section">
+            <h2>Classes de Personagens</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Guerreiro</h3>
+                    <p>Especializado em combate corpo a corpo, o guerreiro é o pilar de qualquer grupo, sempre pronto para proteger seus aliados e derrotar os inimigos com sua força bruta.</p>
+                </div>
+                <div class="card">
+                    <h3>Mago</h3>
+                    <p>O mago é mestre das artes arcanas, capaz de manipular a magia para causar destruição ou proteger seus aliados. Ele é frágil fisicamente, mas poderoso em sabedoria e poder místico.</p>
+                </div>
+                <div class="card">
+                    <h3>Ladino</h3>
+                    <p>O ladino é astuto e ágil, especialista em furtividade, armadilhas e golpes críticos. É o personagem perfeito para infiltrações e ataques surpresa.</p>
+                </div>
+                <div class="card">
+                    <h3>Clérigo</h3>
+                    <p>O clérigo é um sacerdote guerreiro, canalizando o poder divino para curar seus aliados e repelir os mortos-vivos. Ele é tanto um suporte quanto um lutador eficiente.</p>
+                </div>
+                <div class="card">
+                    <h3>Bardo</h3>
+                    <p>O bardo é um mestre das artes e das palavras, capaz de inspirar aliados com suas canções e manipular a mente dos inimigos com seu carisma e magia.</p>
+                </div>
+                <div class="card">
+                    <h3>Druida</h3>
+                    <p>O druida é um guardião da natureza, capaz de se transformar em animais e manipular forças naturais para proteger o mundo e seus aliados.</p>
+                </div>
+                <div class="card">
+                    <h3>Paladino</h3>
+                    <p>O paladino é um campeão da justiça, jurando defender os inocentes e lutar contra o mal. Combinando habilidades de combate com poder divino, ele é uma força implacável no campo de batalha.</p>
+                </div>
+                <div class="card">
+                    <h3>Monge</h3>
+                    <p>O monge é um mestre das artes marciais, canalizando sua energia interior para realizar feitos extraordinários em combate e meditação.</p>
+                </div>
+                <div class="card">
+                    <h3>Ranger</h3>
+                    <p>O ranger é um caçador e explorador experiente, mestre em combate à distância e na sobrevivência em ambientes selvagens. Ele é capaz de se camuflar e atacar com precisão mortal.</p>
+                </div>
+                <!-- Adicione mais classes aqui -->
+            </div>
+        </section>
+
+        <!-- Armas e Ataques Especiais -->
+        <section id="armas" class="section">
+            <h2>Armas e Ataques Especiais</h2>
+            <div class="card">
+                <ul>
+                    <li><strong>Espada Longa:</strong> Arma favorita dos guerreiros, é versátil e letal em combate corpo a corpo.</li>
+                    <li><strong>Bastão Arcano:</strong> Usado por magos, concentra a energia mágica e amplifica feitiços poderosos.</li>
+                    <li><strong>Adaga:</strong> Pequena e ágil, perfeita para ataques furtivos de ladinos.</li>
+                    <li><strong>Martelo de Guerra:</strong> O clérigo usa para esmagar inimigos e abençoar aliados.</li>
+                    <li><strong>Arco Longo:</strong> A arma preferida dos rangers, ideal para ataques à distância com precisão.</li>
+                    <li><strong>Canção Encantadora:</strong> O bardo usa sua música para enfeitiçar inimigos ou fortalecer aliados.</li>
+                    <li><strong>Forma Animal:</strong> O druida se transforma em criaturas poderosas para lutar ou explorar.</li>
+                    <li><strong>Smite Divino:</strong> Ataque especial do paladino que canaliza energia divina para causar dano massivo ao mal.</li>
+                    <li><strong>Golpe Mortal:</strong> O monge usa sua energia interior para desferir um golpe devastador.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- RPGs Famosos -->
+        <section id="famosos" class="section">
+            <h2>RPGs Brasileiros Famosos</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Ordem Paranormal</h3>
+                    <p>Um RPG brasileiro focado no sobrenatural e no horror, onde os jogadores enfrentam mistérios macabros e criaturas paranormais em um mundo moderno cheio de segredos e perigos ocultos.</p>
+                </div>
+                <div class="card">
+                    <h3>Tormenta</h3>
+                    <p>O maior e mais popular RPG brasileiro, Tormenta é um cenário de fantasia épica repleto de heróis, deuses, monstros e grandes guerras. É um marco na cultura geek nacional.</p>
+                </div>
+                <div class="card">
+                    <h3>Reinos de Ferro</h3>
+                    <p>Um RPG que combina fantasia com elementos steampunk, onde tecnologia e magia coexistem em um mundo em guerra. É
+                    </div>
+                </main>
+                        <footer>
+                            <p>Contato: Maxine Seong - <a href="mailto:00001094030922sp@al.educacao.sp.gov.br">00001094030922sp@al.educacao.sp.gov.br</a></p>
+                        </footer>
+                    </body>
+                    </html>                        
